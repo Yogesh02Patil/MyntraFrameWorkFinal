@@ -35,10 +35,6 @@ public class HomePageTestCases
 	WebDriver driver;
 	ExtentReports report;
 	ExtentTest logger;
-	
-	
-	
-	
 	@BeforeTest
 	public void beforeTestCase() throws IOException
 	{
