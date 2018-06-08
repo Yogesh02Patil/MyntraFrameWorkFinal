@@ -33,6 +33,8 @@ public class HomePageTestCases
 	
 	
 	
+	
+	
 	HomePageObject page1;
 	WebDriver driver;
 	ExtentReports report;
