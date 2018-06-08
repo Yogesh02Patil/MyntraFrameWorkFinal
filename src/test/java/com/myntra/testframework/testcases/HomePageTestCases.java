@@ -36,6 +36,7 @@ public class HomePageTestCases
 	ExtentReports report;
 	ExtentTest logger;
 	@BeforeTest
+	
 	public void beforeTestCase() throws IOException
 	{
 		report=new ExtentReports("C:\\Users\\Yogesh\\git\\MyntraFrameWorkFinal\\Report\\report.html",true);
