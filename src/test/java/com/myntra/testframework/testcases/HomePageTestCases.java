@@ -34,8 +34,9 @@ public class HomePageTestCases
 	WebDriver driver;
 	ExtentReports report;
 	ExtentTest logger;
-	@BeforeTest
 	
+	
+	@BeforeTest
 	public void beforeTestCase() throws IOException
 	{
 		report=new ExtentReports("C:\\Users\\Yogesh\\git\\MyntraFrameWorkFinal\\Report\\report.html",true);
