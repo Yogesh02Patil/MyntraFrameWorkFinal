@@ -31,6 +31,8 @@ import com.relevantcodes.extentreports.LogStatus;
 public class HomePageTestCases
 {
 	
+	
+	
 	HomePageObject page1;
 	WebDriver driver;
 	ExtentReports report;
