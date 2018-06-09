@@ -1,7 +1,9 @@
 package com.myntra.testframework.testcases;
 
 public class test3 {
-	public void show()
+	
+	
+	public void display()
 	{
 	  System.out.println("Hello");	
 	}
