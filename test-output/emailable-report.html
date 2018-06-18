@@ -31,24 +31,49 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">17.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">1,807.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Default test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">com.myntra.testframework.testcases.HomePageTestCases</td><td><a href="#m1"><b>tabsPresentOrNot</b>  </a></td><td class="numi">1</td><td>1528174202183</td><td class="numi">636</td></tr>
+<tr class="failedodd"><td rowspan="1">com.myntra.testframework.testcases.Demo</td><td><a href="#m1"><b>setData</b>  </a></td><td class="numi">1</td><td>1529235457186</td><td class="numi">1807227</td></tr>
 </table>
 <h1>Default test</h1>
-<h2 id="m1">com.myntra.testframework.testcases.HomePageTestCases:tabsPresentOrNot</h2>
+<h2 id="m1">com.myntra.testframework.testcases.Demo:setData</h2>
 <div style="padding-left:3em">
-<p>expected [] but found [Kids]</p>
-org.testng.Assert.fail(Assert.java:94)
-<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
-<br/>at org.testng.Assert.assertEquals(Assert.java:123)
-<br/>at org.testng.Assert.assertEquals(Assert.java:176)
-<br/>at org.testng.Assert.assertEquals(Assert.java:186)
-<br/>at com.myntra.testframework.testcases.HomePageTestCases.tabsPresentOrNot(HomePageTestCases.java:77)
+<p>Timed out waiting for page load.
+Command duration or timeout: 1800.08 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;YogeshPatil&apos;, ip: &apos;192.168.2.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7c45abaf-95fa-4eaa-8172-35f39171ab17</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+<br/>at com.myntra.testframework.testcases.Demo.setData(Demo.java:18)
 <br/>25 lines not shown
+<p>Caused by Timed out waiting for page load.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;YogeshPatil&apos;, ip: &apos;192.168.2.3&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown</p>
+&lt;anonymous class&gt;.Utils.initWebLoadingListener/&lt;(file:///C:/Users/Yogesh/AppData/Local/Temp/anonymous4308983561983628198webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9071)
+<br/>at &lt;anonymous class&gt;.WebLoadingListener/e(file:///C:/Users/Yogesh/AppData/Local/Temp/anonymous4308983561983628198webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5142)
+<br/>at &lt;anonymous class&gt;.WebLoadingListener/&lt;(file:///C:/Users/Yogesh/AppData/Local/Temp/anonymous4308983561983628198webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5150)
+<br/>at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Yogesh/AppData/Local/Temp/anonymous4308983561983628198webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+<br/>at &lt;anonymous class&gt;.openModalWindow(resource://gre/components/nsPrompter.js:369)
+<br/>at &lt;anonymous class&gt;.ModalPrompter.prototype.openPrompt(resource://gre/components/nsPrompter.js:552)
+<br/>at &lt;anonymous class&gt;.ModalPrompter.prototype.nsIPrompt_promptUsernameAndPassword(resource://gre/components/nsPrompter.js:746)
+<br/>at &lt;anonymous class&gt;.ModalPrompter.prototype.promptAuth(resource://gre/components/nsPrompter.js:845)
+<br/>at &lt;anonymous class&gt;.Prompter.prototype.promptAuth(resource://gre/components/nsPrompter.js:107)
+<br/>at &lt;anonymous class&gt;.LoginManagerPrompter.prototype.promptAuth(resource://gre/components/nsLoginManagerPrompter.js:580)
+<br/>at &lt;anonymous class&gt;.LoginManagerPromptFactory.prototype._doAsyncPrompt/runnable.run(resource://gre/components/nsLoginManagerPrompter.js:98)
+<br/>1 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
