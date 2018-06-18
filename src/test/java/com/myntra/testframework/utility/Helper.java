@@ -22,8 +22,12 @@ public class Helper {
 		org.openqa.selenium.io.FileHandler.copy(scr, new File(dest));
 		
 		return dest;
+	
+		
+		
 		
 	}
+	
 
 	
 	
