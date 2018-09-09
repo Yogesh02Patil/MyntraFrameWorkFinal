@@ -17,7 +17,7 @@ public class Helper {
 		
 		File scr = st.getScreenshotAs(OutputType.FILE);
 		
-		String dest="C:\\Users\\Yogesh\\git\\MyntraFrameWorkFinal\\Screenshots\\"+path+".png";
+		String dest="C:\\Users\\Yogesh\\git\\NewProject\\MyntraProject\\Screenshots\\"+path+".png";
 		
 		org.openqa.selenium.io.FileHandler.copy(scr, new File(dest));
 		

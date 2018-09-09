@@ -16,7 +16,7 @@ public class DataProviderFromExcal {
 
 	public DataProviderFromExcal() throws Exception {
 		
-		f = new File("C:\\Users\\Yogesh\\git\\MyntraFrameWorkFinal\\TestData\\data.xlsx");
+		f = new File("C:\\Users\\Yogesh\\git\\NewProject\\MyntraProject\\TestData\\data.xlsx");
 		istream = new FileInputStream(f);
 		wbook = new XSSFWorkbook(istream);
 	}

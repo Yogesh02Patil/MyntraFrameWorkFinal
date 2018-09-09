@@ -45,7 +45,7 @@ public class HomePageTestCases
 	{
 		 
 		
-		logger = ExtentReportFactory.getReport("C:\\Users\\Yogesh\\git\\MyntraFrameWorkFinal\\Report\\report.html","HomePageTestCases");
+		logger = ExtentReportFactory.getReport("C:\\Users\\Yogesh\\git\\NewProject\\MyntraProject\\Report\\report.html","HomePageTestCases");
 		
 		page1=new HomePageObject();
 		

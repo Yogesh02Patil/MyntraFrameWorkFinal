@@ -16,7 +16,7 @@ public class DataProviderFromConfig {
 
 	public DataProviderFromConfig() throws IOException {
 		f = new File(
-				"C:\\Users\\Yogesh\\git\\MyntraFrameWorkFinal\\Configuration\\confg.properties");
+				"C:\\Users\\Yogesh\\git\\NewProject\\MyntraProject\\Configuration\\confg.properties");
 
 		istream = new FileInputStream(f);
 

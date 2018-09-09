@@ -36,7 +36,7 @@ public class LoginPageTestCases {
 		driver = BrowserFactory.getDriver("firefox");
 		page = new LoginPageObject();
 		PageFactory.initElements(driver, page);
-		logger = ExtentReportFactory.getReport("C:\\Users\\Yogesh\\git\\MyntraFrameWorkFinal\\Report\\report.html",
+		logger = ExtentReportFactory.getReport("C:\\Users\\Yogesh\\git\\NewProject\\MyntraProject\\Report\\report.html",
 				"LoginTestCaseReport");
 
 	}
